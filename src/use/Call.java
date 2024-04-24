@@ -11,7 +11,7 @@ public class Call {
         // 加算クラスをインスタンス化
         Calculator calculator = new SubCalc();
         // メソッドを実行
-        Integer result = calculator.calc(10, 4);
+        Integer result = calculator.calc(10, 6);
         // 結果の表示
         System.out.println("計算結果は「" + result + "」です。");
     }
